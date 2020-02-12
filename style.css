@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d4cece;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./images/me.jpg);
+    background-size: cover;
+    
+}
+
+/* ----------------- Header -----------------------*/
+nav{
+    border-bottom: 2px solid #fdb827;
+    height: 60px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: #f4f4f4;
+    padding: 1px 16px;
+    
+}
+
+nav a:hover{
+    color:#542583;
+
+}   
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin:10px 
+
+}
+.side-nav{
+    height:100%;
+    width:0;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x:hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color:#ccc;
+    display: block;
+    transition: 0.3s ;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top:0;
+    right:36px;
+    margin-left:50px;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+
+.icons a {
+    padding:0.4rem;
+    float:right;
+    color: #fdb827;
+    margin-left:10px;
+}
+/*-------------------Main------------------------------*/
+
+.head2{
+color: #fdb827;
+font-size: 90px;
+padding-top: 10rem;
+padding-bottom: 0%;
+float:right;
+margin-right: 100px;
+text-transform: uppercase;
+}
+
+
+
+.head3{
+        position: absolute;
+        width: 1138px;
+        height: 70px;
+        top: 430px;
+        background: #fdb827;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        
+    } 
+
+.text{
+    line-height: 50px;
+    color: #542583;
+    font-size: 40px;
+    float:right;
+
+}
+
+
+/*-------------------About Page------------------------------*/
+.about-headings{
+    color: #542583;   
+    margin-left: 70px;
+    font-size:1.5rem;
+}
+.about-info{
+    margin: 0 60px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-gap:30px;
+    grid-template-areas: 
+    'magwaza-img bio bio'
+    'job1 job2 job3';
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mgwspan{
+    color: #fdb827;
+}
+
+.magwaza-img {
+    grid-area: magwaza-img;
+    margin: auto;
+    border-radius: 50%;
+    border: #542583 solid 3px;
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+.bio{
+    grid-area: bio;
+}
+
+.job1{
+    grid-area: job1;
+}
+.job2{
+    grid-area: job2;
+}
+.job3{
+    grid-area: job3;
+}
+
+.bio h3{
+    color: #fdb827;
+    font-size: 2rem;
+}
+
+.bio{
+    color: #ffff;
+}
+
+.job{
+    background: rgb(240, 235, 235);
+    opacity: 7;
+    padding: 0.5rem;
+    border-bottom: #542583 4px solid;
+}
+
+.job h3{
+    color: #fdb827;
+    font-weight: 900;
+}
+
+/*-------------------Footer Page------------------------------*/
+
+.main-footer{
+    text-align: center;
+    padding: 1rem;
+    background: #a39d9d;
+    opacity: 0.9;
+    
+
+}
+
+
+/*-------------------Portfolio------------------------------*/
+
+.job img{
+    width:100%;
+}
+/*-------------------Portfolio------------------------------*/
+
